@@ -11,7 +11,7 @@ public class RentalService {
 	private double pricePerHour;
 	
 	private TaxService taxService;
-
+								//importante, objeto taxService classe abstrata de interface recebe um upcasting no progrma principal
 	public RentalService(double pricePerDay, double pricePerHour, TaxService taxService) {
 		super();
 		this.pricePerDay = pricePerDay;
